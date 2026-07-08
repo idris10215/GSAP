@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(114, 145, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(42, 180, 226);
+    display: flex;
+    align-items: center;
+}
+
+#page1 h1{
+    font-size:20vw;
+    text-wrap: nowrap;
+    color: #111;
+}
+
+#page2 h1{
+    font-size:30vw;
+    text-wrap: nowrap;
+}
